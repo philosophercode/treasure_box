@@ -1,0 +1,75 @@
+div {
+
+}
+#mainContainer {
+
+}
+#treasureBox {
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 9px 50px 42px rgba(0,0,0,0.75);
+  position: absolute;
+  margin: 1%;
+  left: 30px;
+  top: 30px;
+  /*background-image: url("./assets/BoneKey-300px.png")*/
+}
+
+
+#landscape {
+  background: yellow;
+
+
+  /*https://upload.wikimedia.org/wikipedia/commons/e/ed/Ar_Rub%E2%80%99_al_Khali_Sand_Sea%2C_Arabian_Peninsula.JPG*/
+  /*background-image: url("./assets/sand_dunes.JPG");*/
+  background-image: url("./assets/moire_pattern1.png");
+
+
+  /*width: 700px;
+  height: 500px;*/
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  max-height: 852px;
+  border: 3px sloid-style black;
+  border-radius: 10px;
+  position: absolute;
+  
+  
+  /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#spotlight {
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  border-radius: 60px;
+  background: rgba(0, 255, 0, .5);
+  background-image: url("./assets/moire_pattern1.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
+  text-shadow: 1px 1px 2px black;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black; 
+}
